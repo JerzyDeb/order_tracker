@@ -1,17 +1,12 @@
 """Api views."""
 
-
-# Django
-from django.conf import settings
-
 # 3rd-party
 from rest_framework.generics import ListAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt import authentication
 
 # Project
-from api.utils import get_serializer_class, get_model_objects
-from shop.models import Order
+from .utils import get_serializer_class, get_model_objects
 
 
 class OrderList(ListAPIView):  # noqa: D101
