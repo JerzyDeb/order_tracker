@@ -1,0 +1,8 @@
+README.md
+setup.py
+migrations/__init__.py
+ordertracker.egg-info/PKG-INFO
+ordertracker.egg-info/SOURCES.txt
+ordertracker.egg-info/dependency_links.txt
+ordertracker.egg-info/requires.txt
+ordertracker.egg-info/top_level.txt
