@@ -24,4 +24,6 @@ def get_model_objects(user):
     lookup_expr = {
         settings.FK_TO_USER: user
     }
-    return model.objects.filter(cart__user=user)
+    qs = model.objects.filter(cart__user=user)
+    print('========================================', qs)
+    return qs
