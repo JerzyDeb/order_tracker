@@ -1,0 +1,7 @@
+setup.py
+migrations/__init__.py
+order_tracker.egg-info/PKG-INFO
+order_tracker.egg-info/SOURCES.txt
+order_tracker.egg-info/dependency_links.txt
+order_tracker.egg-info/requires.txt
+order_tracker.egg-info/top_level.txt
