@@ -6,8 +6,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'Django',
-        'djangorestframework'
-        'djangorestframework-simplejwt'
-        'drf-yasg==1.21.7'
+        'djangorestframework',
+        'djangorestframework-simplejwt',
+        'drf-yasg==1.21.7',
     ],
 )
