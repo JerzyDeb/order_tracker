@@ -1,4 +1,0 @@
-Django
-djangorestframework
-djangorestframework-simplejwt
-drf-yasg==1.21.7
