@@ -24,6 +24,4 @@ def get_model_objects(user):
     lookup_expr = {
         settings.FK_TO_USER: user
     }
-    qs = model.objects.filter(**lookup_expr)
-    print('========================================', qs)
-    return qs
+    return model.objects.filter(**lookup_expr)

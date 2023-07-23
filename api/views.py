@@ -1,9 +1,5 @@
 """Api views."""
 
-
-# Django
-from django.conf import settings
-
 # 3rd-party
 from rest_framework.generics import ListAPIView
 from rest_framework.permissions import IsAuthenticated
